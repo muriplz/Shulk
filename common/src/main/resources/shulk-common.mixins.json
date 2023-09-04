@@ -3,10 +3,9 @@
   "package": "com.kryeit.mixin",
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
-  "client": [
-    "MixinTitleScreen"
-  ],
+  "client": [],
   "mixins": [
+    "ItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1
