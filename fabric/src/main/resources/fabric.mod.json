@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "shulk",
+  "version": "${version}",
+  "name": "Shulk",
+  "description": "Shulkers as backpacks",
+  "authors": [
+    "MuriPlz and Dolphin"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/muriplz/Shulk"
+  },
+  "license": "Insert License Here",
+  "icon": "assets/examplemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kryeit.fabric.MainFabric"
+    ]
+  },
+  "mixins": [
+    "shulk.mixins.json",
+    "shulk-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.4",
+    "architectury": ">=8.1.79"
+  }
+}

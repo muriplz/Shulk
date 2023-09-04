@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "shulk"
+version = "${version}"
+displayName = "Shulk"
+authors = "MuriPlz and Dolphin"
+description = '''
+Shulkers as backpacks
+'''
+#logoFile = ""
+
+[[dependencies.shulk]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.shulk]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
